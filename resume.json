@@ -1,0 +1,34 @@
+{
+  "success": true,
+  "data": {
+    "name": "Andi Nugroho",
+    "field": "Blockchain & Software Engineer",
+    "specialties": [
+      "Blockchain Engineer",
+      "Smart Contracts",
+      "DeFi & NFTs",
+      "Web3 Applications",
+      "Trading Automation"
+    ],
+    "about_me": "I am a Blockchain & Software Engineer specializing in smart contracts, DeFi, NFTs, and Web3 applications.",
+    "core_skills": [
+      "With expertise in Solidity, Rust, React, and Node.js, I build secure and scalable blockchain solutions. I have experience developing DeFi protocols, NFT marketplaces, cross-chain platforms, and crypto wallets while optimizing smart contract efficiency and security. Passionate about Layer-2 solutions and interoperability, I stay ahead of emerging blockchain innovations."
+    ],
+    "technologies": [
+      "Programming Languages", "JavaScript (ES6)", "TypeScript", "Solidity", "Rust", "Java",
+      "Frameworks", "Laravel", "Nextjs", "React", "Redux", "Ether.js", "Web3.js", "Viem", "Socket.io", "SWR", "Tailwindcss", "Bootstrap",
+      "Blockchain & Web3 Techs", "Smart Contracts", "Internet Identity", "ICP Ledger", "IPFS", "Contract ABI",
+      "Backend", "Node.js", "Express", "Spring MVC", "MongoDB", "Rest APIs", "Mongoose", "Spring Boot"
+    ],
+    "freelance_info": "Contact Me.",
+    "accounts": {
+      "gmail": "4andinugroho@gmail.com",
+      "github": "https://github.com/andi-nugroho",
+      "linkedIn": "https://www.linkedin.com/in/andiinugroho",
+      "telegram": "https://t.me/nerdnomerch",
+      "hackerrank": "https://www.hackerrank.com/profile/andinugroho",
+      "dev.to": "https://dev.to/andinugroho"
+    },
+    "contact_note": "I am open to collaboration and technology-based projects. If you're interested, feel free to contact me!"
+  }
+}
