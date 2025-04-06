@@ -1,0 +1,74 @@
+<!-- Created by Andi -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Watermark: Andi -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nerd's Profile - Interactive JSON View</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Developed by Andi -->
+</head>
+<body>
+    <!-- Wrapper by Andi -->
+    <div class="main-content-wrapper">
+        <!-- Page Header - Andi -->
+        <header class="page-header">
+            <div class="header-content">
+                 <i class="fas fa-terminal header-icon"></i>
+                <h1>Andi Nugroho</h1>
+                <p>Blockchain & Software Engineer - JSON View</p>
+            </div>
+        </header>
+
+        <!-- Main Card - Andi -->
+        <div class="card" id="resume-card">
+            <div class="card-header">
+                <i class="far fa-file-code icon"></i>
+                <span class="filename">resume.json</span>
+                <i class="fas fa-sync-alt icon" id="reload-icon" title="Reload Data"></i>
+            </div>
+            <div class="card-body">
+                <!-- Loading Indicator - Andi -->
+                <div class="loading-indicator" id="loading">
+                    <div class="spinner"></div>
+                    <span>Loading data...</span>
+                </div>
+                <!-- JSON Content Area - Andi -->
+                <pre><code id="json-content"></code></pre>
+            </div>
+            <!-- Copy Notification - Andi -->
+            <div id="copy-notification" class="copy-notification">Copied!</div>
+        </div>
+        <!-- End Card - Andi -->
+    </div> <!-- End Wrapper - Andi -->
+
+    <!-- Footer Section - Andi -->
+    <footer class="site-footer">
+        <div class="social-links">
+            <!-- Footer links direct to accounts - Andi -->
+            <a href="mailto:4andinugroho@gmail.com" target="_blank" rel="noopener noreferrer" title="Gmail"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://github.com/andi-nugroho" target="_blank" rel="noopener noreferrer" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/andiinugroho" target="_blank" rel="noopener noreferrer" title="linkedin"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.hackerrank.com/andinugroho" target="_blank" rel="noopener noreferrer" title="Hackerrank"><i class="fa-brands fa-hackerrank"></i></a>
+            <a href="https://t.me/nerdnomerch" target="_blank" rel="noopener noreferrer" title="Telegram"><i class="fab fa-telegram"></i></a>
+            <a href="https://dev.to/andinugroho" target="_blank" rel="noopener noreferrer" title="Dev"><i class="fa-brands fa-dev"></i></a>
+            <a href="bc1q8fsk8wufsgkctzuw8gt9drjfs2j9sv04v00l54" target="_blank" rel="noopener noreferrer" title="Bitcoin"><i class="fa-brands fa-bitcoin"></i></a>
+            <a href="0x65Ae665c318170795152b2797AC38AD479D50Da0" target="_blank" rel="noopener noreferrer" title="Ethereum"><i class="fa-brands fa-ethereum"></i></a>
+        </div>
+        <p class="copyright">© <span id="copyright-year"></span> Andi Nugroho. All rights reserved.</p>
+    </footer>
+    <!-- End Footer - Andi -->
+
+    <!-- Chatbot Elements Removed by Andi -->
+    <!-- <button id="chatbot-fab" ...></button> -->
+    <!-- <div id="chat-modal" ...></div> -->
+
+    <!-- Libraries - Andi -->
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <script src="script.js"></script>
+    <!-- HTML Structure by Andi -->
+</body>
+</html>
+<!-- End of HTML file by Andi -->
