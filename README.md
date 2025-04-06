@@ -15,7 +15,7 @@ The primary goal is to offer an engaging and visually appealing alternative for 
 
 Check out the live version deployed here:
 
-➡️ **[frenki.vercel.app](https://frenki.vercel.app/)** ⬅️
+➡️ **[nerdf-ollio.vercel.app](https://nerdf-ollio-andi-dev.vercel.app/)** ⬅️
 
 ## ✨ Key Features
 
@@ -45,8 +45,8 @@ To run this project locally:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone https://github.com/frenkiofficial/Portfolio-Site.git
-    cd Portfolio-Site
+    git clone https://github.com/andi-nugroho/f-olio.git
+    cd f-olio
     ```
 
 2.  **Open `index.html`:**
@@ -70,7 +70,7 @@ This project is designed to be easily adaptable for your own profile. Here’s h
 
 3.  **Update Copyright Name (`index.html`):**
     *   In the footer section, find `<p class="copyright">`.
-    *   Change the name "Frenki" to your name or desired alias.
+    *   Change the name "Andi" to your name or desired alias.
 
 4.  **(Optional) Customize Styles (`style.css`):**
     *   If you wish to change the appearance (colors, fonts, spacing, animations), you can modify the rules within the `style.css` file.
